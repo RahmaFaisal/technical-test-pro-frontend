@@ -1,9 +1,11 @@
 {
   "name": "technical-test-pro-frontend",
   "version": "0.1.0",
+  "homepage": "https://RahmaFaisal.github.io",
   "private": true,
   "scripts": {
     "build": "next build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "dev:back": "SERVER_API_ENDPOINT=http://localhost:8080 next dev",
     "lint": "eslint --ext .tsx,.ts --fix src/",
