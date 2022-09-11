@@ -21,5 +21,14 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       });
       res.status(200).json(appointment);
       break;
+    case 'DELETE':
+      const { id } = JSON.parse(req.body);
+      await prisma.appointment.delete({
+        where: {
+          id,
+        },
+      });
+      res.status(200).send('ok');
+      break;
   }
 };
