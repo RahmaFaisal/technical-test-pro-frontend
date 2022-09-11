@@ -1,0 +1,14 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/appointments": "pages/api/appointments.js",
+  "/api/availabilities": "pages/api/availabilities.js",
+  "/api/patients": "pages/api/patients.js",
+  "/api/practitioners": "pages/api/practitioners.js",
+  "/api/timeslots": "pages/api/timeslots.js",
+  "/appointments": "pages/appointments.html",
+  "/": "pages/index.html",
+  "/timeslots": "pages/timeslots.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}

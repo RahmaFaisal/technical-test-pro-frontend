@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { configureStore } from '@reduxjs/toolkit';\nimport { combineReducers } from 'redux';\nimport reducers from './reducers';\nvar rootReducer = combineReducers(reducers);\nexport default configureStore({\n  reducer: rootReducer\n});","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const parseIds = data => {\n  const idKeys = Object.keys(data).filter(key => key.endsWith('Id'));\n  idKeys.forEach(key => {\n    data[key] = parseInt(data[key]);\n  });\n  return data;\n};","map":null,"metadata":{},"sourceType":"module"}

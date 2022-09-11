@@ -1,0 +1,1 @@
+{"ast":null,"code":"import prisma from 'prisma/client';\nexport default (async (req, res) => {\n  const availabilities = await prisma.availability.findMany({\n    where: {\n      practitionerId: +req.query.practitionerId\n    }\n  });\n  res.status(200).json(availabilities);\n});","map":null,"metadata":{},"sourceType":"module"}

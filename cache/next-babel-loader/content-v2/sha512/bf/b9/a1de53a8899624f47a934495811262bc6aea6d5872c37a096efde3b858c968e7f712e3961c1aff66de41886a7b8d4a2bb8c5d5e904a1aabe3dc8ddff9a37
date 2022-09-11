@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var parseIds = function parseIds(data) {\n  var idKeys = Object.keys(data).filter(function (key) {\n    return key.endsWith('Id');\n  });\n  idKeys.forEach(function (key) {\n    data[key] = parseInt(data[key]);\n  });\n  return data;\n};","map":null,"metadata":{},"sourceType":"module"}
